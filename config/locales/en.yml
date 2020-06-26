@@ -39,13 +39,3 @@ en:
     welcome: "Welcome to the Sample App"
     p1: "This is the home page for the"
     p2: "sample application."
-  users:
-    signup: "Sign Up"
-    name: "Fullname"
-    password: "Password"
-    confirm_password: "Confirm password"
-    submit: "Sign up"
-    p1: "Enter your fullname"
-    p2: "Enter your email"
-    p3: "Enter your password"
-    p4: "Confirm you password"

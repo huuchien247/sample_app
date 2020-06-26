@@ -1,8 +1,0 @@
-model:
-  user:
-    name:
-      lenght: 50
-    email:
-      lenght: 255
-    password:
-      lenght: 8
