@@ -13,8 +13,9 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
-    return :new unless @user.save
+    return render:new unless @user.save
 
+    log_in @user
     flash[:success] = t "users.success"
     redirect_to user_path id: @user.id
   end
