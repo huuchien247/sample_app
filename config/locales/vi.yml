@@ -53,3 +53,7 @@ vn:
     p2: "Nhập địa chỉ email của bạn"
     p3: "Nhập mật khẩu của bạn"
     p4: "Xác nhận lại mật khẩu của bạn"
+    sbumit: "Tạo tài khoản"
+    success: "Chào mừng bạn đến với Sample App "
+    error: "Biểu mẫu của bạn hiện có"
+    user_nil: "Chúng tôi không tìm thấy người dùng phù hợp"
