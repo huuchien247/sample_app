@@ -12,6 +12,7 @@ vn:
     ruby: "Ruby on Rails"
     app: "Sample App"
     by: "được thực hiện bởi"
+    language: "Ngôn ngữ"
   link:
     base_link: "https://www.railstutorial.org/"
     michael: "https://www.michaelhartl.com/"
@@ -48,12 +49,44 @@ vn:
     name: "Họ và tên"
     password: "Mật khẩu"
     confirm_password: "Xác nhận mật khẩu"
-    submit: "Đăng ký"
     p1: "Nhập họ và tên của bạn"
     p2: "Nhập địa chỉ email của bạn"
     p3: "Nhập mật khẩu của bạn"
     p4: "Xác nhận lại mật khẩu của bạn"
-    sbumit: "Tạo tài khoản"
+    submit: "Tạo tài khoản"
     success: "Chào mừng bạn đến với Sample App "
-    error: "Biểu mẫu của bạn hiện có"
+    error: "Biểu mẫu của bạn hiện có "
+    errors: "lỗi"
     user_nil: "Chúng tôi không tìm thấy người dùng phù hợp"
+    new_user: "Bạn là người dùng mới ?"
+    acc: "Tài khoản"
+    set: "Cài đặt"
+    logout: "Đăng xuất"
+    pro: "Hồ sơ"
+    user: "Người dùng"
+  login:
+    sign_up_now: "Đăng nhập ngay"
+    fail: "Email không tồn tại hoặc mật khẩu không hợp lệ. Vui lòng thử lại !!!"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "không được bỏ trống"
+              too_long: "quá dài"
+            email:
+              taken: "Đã được sử dụng"
+              blank: "không được bỏ trống"
+              invalid: "không hợp lệ"
+              too_long: "quá dài"
+            password:
+              blank: "không được bỏ trống"
+              too_long: "quá dài"
+            password_confirmation:
+              confirmation: " không khớp với mật khẩu"
+    attributes:
+      user:
+        name: "Tên người dùng"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
