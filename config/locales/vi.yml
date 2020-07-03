@@ -66,6 +66,7 @@ vn:
     user: "Người dùng"
   login:
     sign_up_now: "Đăng nhập ngay"
+    rem: "Nhớ tôi trên máy tính này nhé "
     fail: "Email không tồn tại hoặc mật khẩu không hợp lệ. Vui lòng thử lại !!!"
   activerecord:
     errors:

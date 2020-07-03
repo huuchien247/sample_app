@@ -63,3 +63,4 @@ en:
   login:
     sign_up_now: "Sign up now!!!"
     fail: "Invalid email/password combination"
+    rem: "Remember me on this computer"
